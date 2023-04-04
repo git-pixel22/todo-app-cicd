@@ -3,18 +3,18 @@
 <html>
 
     <head>
-        <title>My shaandaar todolist</title>
+        <title>📝️ Todolist</title>
         <style>
             a {
                 text-decoration: none;
-                color: black;
+                color: #187d18;
             }
 
         </style>
     </head>
 
     <body>
-        <h1>GNA Students are Super Duper Awesome</h1>
+        <h1>My Todo-List</h1>
         <ul>
             <% todolist.forEach(function(todo, index) { %>
             <li>
@@ -27,7 +27,7 @@
 
         <form action="/todo/add/" method="post">
             <p>
-                <label for="newtodo">What shoud I do?</label>
+                <label for="newtodo">Add Tasks Here 👉️ </label>
                 <input type="text" name="newtodo" id="newtodo" autofocus />
                 <input type="submit" value="Add" />
             </p>
