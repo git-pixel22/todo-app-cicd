@@ -10,3 +10,5 @@ Connecting the GitHub repository for the Node.js app to Jenkins using SSH tokens
 Containerizing the Node.js app using Docker and writing a Dockerfile
 Building the Node.js app in Jenkins and reflecting the changes in the code base
 Implementing webhooks to trigger the build process automatically whenever there is a change in the code base
+
+With the CI/CD pipeline in place, the deployment process for the Node.js todo app becomes automated, saving time and reducing the risk of errors.
