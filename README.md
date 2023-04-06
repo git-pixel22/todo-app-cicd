@@ -13,4 +13,3 @@ Implementing webhooks to trigger the build process automatically whenever there 
 
 With the CI/CD pipeline in place, the deployment process for the Node.js todo app becomes automated, saving time and reducing the risk of errors.
 
-just a change
